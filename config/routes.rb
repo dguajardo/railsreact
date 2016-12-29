@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  get 'temperatures/index'
+
+  get 'temperatures/show'
+
+  resources :temperatures
+  root "temperatures#index"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
