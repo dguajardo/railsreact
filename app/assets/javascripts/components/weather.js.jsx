@@ -18,7 +18,10 @@ export default class App extends React.Component{
 
 render(){
     return (
-      <Fetch url="http://api.openweathermap.org/data/2.5/weather?q=London,uk">
+      <Fetch url="http://openweathermap.org/city/3871336">
+      <Fetch url="http://openweathermap.org/city/6693229">
+      <Fetch url="http://openweathermap.org/city/3936456">
+      <Fetch url="http://openweathermap.org/city/7521912">
         <TestComponent/>
       </Fetch>
     )
